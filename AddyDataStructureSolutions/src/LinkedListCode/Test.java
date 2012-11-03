@@ -5,14 +5,19 @@ public class Test {
 	public static void main(String[] args)
 	{
 		LinkedList l = new LinkedList();
-		l.insert(1);
-		l.insert(3);
-		l.insert("adi");
-		l.printList();
+//		l.insertAtEnd(1);
+//		l.insertAtEnd(3);
+//		l.insertAtEnd("adi");
+//		l.insertAtFront(5);
+//		l.printList();
+		l.insertAtIndex(2,"gadha");
+//		l.removeAtEnd();
+//		l.removeAtFront();
+//		l.removeAtFront();
+//		l.removeAtFront();
 //		l.remove();
 //		l.remove();
-//		l.remove();
-		l.reverseList();
+//		l.reverseList();
 		l.printList();
 	}
 }
